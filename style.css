@@ -1,0 +1,100 @@
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.uno li{
+    list-style: none;
+    float:left;
+    font-size: 1.2em;
+    width: 10em;
+    border: dashed 5px #954A95;
+    margin: 0.5em;
+    padding: 5px 0;
+    background-color: #5ACE77;
+    color: #5E0272;
+    font-weight: bold;
+    text-align: center;
+}
+p.dos{
+    clear: both;
+}
+ul.dos{
+    text-align: center;
+}
+.dos li{
+    list-style-type: none;
+    background-color: white;
+    margin: 0.5em;
+    font-size: 17px;
+    padding: 3px;
+    border: solid white 2px;
+    border-color: white black black white;
+    display: inline;
+}
+.dos li:hover{
+    background-color: lightgrey;
+    border-color: black white white black;
+}
+ul.tres{
+    list-style: none;
+    border: solid 1px;
+    width: fit-content;
+    text-align: center;
+    padding: 7px;
+}
+.tres li{
+    background-color: white;
+    padding: 2px;
+    width: 8.5em;
+    font-size: 17px;
+    border: solid 1px;
+    margin: 10px;
+}
+ul.cuatro{
+    list-style: none;
+    text-align: center;
+}
+.cuatro li {
+    display: inline-block;
+    width: 10em;
+    padding: 0.5em 0;
+    background-color: white;
+    color: #3366CC;
+    font-weight: bold;
+    margin: 0;
+}
+.cuatro li.azul{
+    background-color: rgb(51, 120, 248);
+    color: white;
+}
+.cinco li{
+    display: inline;
+    float:left;
+    font-size: 1.2em;
+    margin: 1em;
+
+    list-style-image: url(/img/lupa.png);
+}
+p.seis{
+    clear: both;
+}
+ul.seis{
+    text-align: center;
+}
+.seis li{
+    display: inline;
+    border: black 0.1em solid;
+    border-radius: 10px;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    font-size: 200%;
+    line-height: 250%;
+}
+ul.lista6 i {
+    margin: 0;
+}
